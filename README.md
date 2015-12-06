@@ -20,7 +20,7 @@ toggleClass extends jQuery to provide the new method so it is is jQuery dependan
 That's it! Nor you can use .toggleClasses() on any element! Here is an example:
 
 ```js
-$(myElement).toggleClasses(['myClass1', 'myClass2', 'myClass3']);
+$('myElement').toggleClasses(['myClass1', 'myClass2', 'myClass3']);
 ```
 
 Here the toggling would look like this: *myClass1 -> myClass2 -> myClass3 -> myClass1 -> etc.* 
@@ -37,8 +37,8 @@ toggleZero	  | Type: Boolean – A Boolean value to decide whether the toggling 
 
 Example:
 
-```jQuery
-$(myElement).toggleClasses(['myClass1', 'myClass2', 'myClass3'], true);
+```js
+$('myElement').toggleClasses(['myClass1', 'myClass2', 'myClass3'], true);
 ```
  
 Here the toggling would look like this: *myClass1 -> myClass2 -> myClass3 -> _____ -> myClass1 -> etc.*  | As "toggleZero" is set to "true" it toggles one more time with no value
