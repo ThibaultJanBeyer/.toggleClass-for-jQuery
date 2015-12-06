@@ -32,6 +32,7 @@ Info
 
 **.toggleClass( [ classNames ], toggleZero )**
 
+Value		  | Description
 ------------- | -------------
 className	  | Type: String – One or more class names (separated by spaces) to be toggled through one after another.
 toggleZero	  | Type: Boolean – A Boolean value to decide whether the toggling cycle should include a state without any of the classNames.
