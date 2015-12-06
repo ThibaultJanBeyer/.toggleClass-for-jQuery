@@ -38,7 +38,9 @@ Example:
 $('myElement').toggleClasses(['myClass1', 'myClass2', 'myClass3'], true);
 ```
  
-Here the toggling would look like this: *myClass1 -> myClass2 -> myClass3 -> _____ -> myClass1 -> etc.*  | As "toggleZero" is set to "true" it toggles one more time with no value
+Here the toggling would look like this: *myClass1 -> myClass2 -> myClass3 -> _____ -> myClass1 -> etc.*  
+
+As "toggleZero" is set to "true" it toggles one more time with no value
 
 ------------------
 Have Fun !
