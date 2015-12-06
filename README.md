@@ -6,7 +6,7 @@
  	* Copyright (c) 2015, Thibault Jan Beyer
 	* Website: http://www.thibaultjanbeyer.com/
 
-This adds the missing .toggleClasses() to jQuery. With toggleClasses you can toggle more than 1 class.
+This adds the missing .toggleClasses() to jQuery. With toggleClasses you can toggle several classes.
 
 ![typewriter icon animation](http://kit.thibaultjanbeyer.com/tools/carousel-slider.js/typewriter.gif)
 
