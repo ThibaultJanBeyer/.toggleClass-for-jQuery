@@ -1,10 +1,7 @@
 # .toggleClasses()
 
-	* VERSION: 0.1.0
- 	* DATE: 2015-12-06
- 	* under The MIT License (MIT)
- 	* Copyright (c) 2015, Thibault Jan Beyer
-	* Website: http://www.thibaultjanbeyer.com/
+ 	* 100% free with MIT License (MIT)
+ 	* By Thibault Jan Beyer – Website: http://www.thibaultjanbeyer.com/
 
 This adds the missing .toggleClasses() to jQuery. With toggleClasses you can toggle several classes.
 
