@@ -8,8 +8,6 @@
 
 This adds the missing .toggleClasses() to jQuery. With toggleClasses you can toggle several classes.
 
-![typewriter icon animation](http://kit.thibaultjanbeyer.com/tools/carousel-slider.js/typewriter.gif)
-
 Install
 ---------------
 
@@ -48,3 +46,4 @@ Here the toggling would look like this: *myClass1 -> myClass2 -> myClass3 -> ___
 ------------------
 Have Fun !
 
+![typewriter icon animation](http://kit.thibaultjanbeyer.com/tools/carousel-slider.js/typewriter.gif)
