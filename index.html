@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ToggleClasses Example</title>
+  <style>
+    .foo {
+      padding: 50px;
+      background-color: lightgrey;
+      margin: 10px;
+      display: inline-block;
+      user-select: none;
+    }
+
+    .myClass1 {
+      background-color: red;
+    }
+
+    .myClass2 {
+      background-color: blue;
+    }
+
+    .myClass3 {
+      background-color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>ToggleClasses Example</h1>
+  <div class="foo">A</div>
+  <div class="foo">B</div>
+  <div class="foo">C</div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="http://thibaultjanbeyer.github.io/.toggleClasses-for-jQuery/toggleClasses.min.js"></script>
+  <script>
+    $('.foo').on('click', e => {
+      $(e.target).toggleClasses(['myClass1', 'myClass2', 'myClass3'], true);
+    });
+  </script>
+</body>
+
+</html>
