@@ -10,7 +10,7 @@ Install
 toggleClass extends jQuery to provide the new method so it is is jQuery dependant. Add jQuery first, then toggleClasses.js to your document after jQuery with this line of code:
 
 ```html
-<script src="http://kit.thibaultjanbeyer.com/scripts/toggleClasses/toggleClasses.min.js"></script>
+<script src="http://thibaultjanbeyer.github.io/.toggleClasses-for-jQuery/toggleClasses.min.js"></script>
 ```
 
 That's it! Nor you can use .toggleClasses() on any element! Here is an example:
