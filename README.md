@@ -44,4 +44,4 @@ As "toggleZero" is set to "true" it toggles one more time with no value
 ------------------
 Have Fun !
 
-![typewriter icon animation](http://kit.thibaultjanbeyer.com/tools/carousel-slider.js/typewriter.gif)
+[![Typewriter Gif](https://thibaultjanbeyer.github.io/DragSelect/typewriter.gif)](http://thibaultjanbeyer.com/)
